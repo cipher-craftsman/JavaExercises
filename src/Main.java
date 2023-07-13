@@ -25,6 +25,7 @@ public class Main {
         add(20, 20);
         subtract(4, 2);
         tall();
+        weight();
 
     }
 
@@ -32,8 +33,12 @@ public class Main {
         System.out.println("Welcome to the program");
     }
 
+    public static void weight() {
+        System.out.println("85");
+    }
+
     public static void name() {
-        System.out.println("......");
+        System.out.println("Jack Bauer");
     }
 
     public static void multiply(int a, int b) {
