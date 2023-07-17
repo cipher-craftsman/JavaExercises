@@ -15,8 +15,11 @@ public class Main {
         subtract(4, 2);
         tall();
         weight();
+	loud();
 
     }
+    public static void loud() { System.out.println("Yes!");}
+
 
     public static void welcome() {
         System.out.println("Welcome to the program");
