@@ -341,6 +341,26 @@ public static void main(String[] args) {
 
 }
 
+import java.awt.*;
+import java.net.Socket;
+import java.sql.SQLOutput;
+import java.util.Date;
+
+public class Main {
+
+    public static void  main(String[] args) {
+        String message = "This will manage the returns Lili and her Buza\n ";
+        System.out.println(message.length());
+        System.out.printf(message);
+        System.out.println(message.indexOf("w"));
+        System.out.println(message.getBytes());
+        System.out.println(message.toUpperCase());
+        System.out.println(message.hashCode());
+        System.out.println(message.replace("Lili and her Buza", "Odd numbers"));
+
+    }
+}
+
 
 	
 
