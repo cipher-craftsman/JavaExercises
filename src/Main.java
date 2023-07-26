@@ -512,6 +512,21 @@ public class Solution {
 			return prime_cell(b, a % b);
 		}
 	}
+	
+	public static void main(String[] args) {
+		int n = 3;
+		boolean[][] A = new boolean[n][n];
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				A[i][j] = prime_cell(i, j) == 1;
+				System.out.print(A[i][j] + " ");
+			}
+			System.out.println();
+		}
+	}
+}
+
+
 
 
 
