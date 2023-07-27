@@ -4,6 +4,17 @@
 public class Main {
 
     public static void main(String[] args) {
+        welcome();
+        thank();
+        name();
+        age();
+        multiply(2, 6);
+        divide(10, 2);
+        add(20, 20);
+        subtract(4, 2);
+        tall();
+        weight();
+	loud();
 
 
     }
