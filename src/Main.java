@@ -1,4 +1,27 @@
+// intro to methods 
 
+public class Main {
+
+    public static void main(String[] args) {
+        welcome();
+        thank();
+        name();
+        age();
+        multiply(2, 6);
+        divide(10, 2);
+        add(20, 20);
+        subtract(4, 2);
+        tall();
+        weight();
+	loud();
+
+
+    }
+    public static void loud() { System.out.println("Yes!");}
+
+
+    public static void welcome() {
+        System.out.println("Welcome to the program");
 
 
     }
