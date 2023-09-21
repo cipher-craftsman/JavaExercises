@@ -531,10 +531,6 @@ public class Solution {
 				System.out.print(A[i][j] + " ");
 			}
 			System.out.println();
-		}
-	}
-}
-
 
 
 
